@@ -1,11 +1,14 @@
 {
   "name": "@carvajalconsultants/cognito",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.ts",
   "repository": "git@github.com:carvajalconsultants/cognito.git",
   "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "GraphileCognitoPreset.ts"
+  ],
   "devDependencies": {
     "@carvajalconsultants/eslint-config": "^0.0.2",
     "@dataplan/pg": "^0.0.1-beta.32",

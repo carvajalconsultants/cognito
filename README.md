@@ -60,7 +60,7 @@ Now on a server only file, where you need to do authentication you must also cal
 ```typescript
 import "./cognito.config";
 
-import { GraphileCognitoPreset } from "@carvajalconsultants/cognito";
+import { GraphileCognitoPreset } from "@carvajalconsultants/cognito/GraphileCognitoPreset";
 import { GraphileCarvajalPreset } from "@carvajalconsultants/graphile";
 import { makePgService } from "postgraphile/adaptors/pg";
 

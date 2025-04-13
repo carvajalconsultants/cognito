@@ -5,7 +5,7 @@ import "@dataplan/pg/adaptors/pg";
 
 import { Kind, OperationTypeNode } from "graphql";
 
-import { getSession } from "./cognito";
+import { getSession } from "./index";
 
 import type { GraphileConfig } from "graphile-config";
 import type { FieldNode, OperationDefinitionNode } from "graphql";
